@@ -1,0 +1,9 @@
+%row {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+%rowmedia {
+    display: flex;
+    flex-direction: column;
+}
