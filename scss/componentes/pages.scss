@@ -1,4 +1,12 @@
 .contenido{
     @extend %row;
     grid-template-columns: 6fr 2fr;
+    padding: 50px;
+}
+
+aside{
+    p{
+        @include about;
+    }
+    
 }

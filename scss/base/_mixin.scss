@@ -10,3 +10,7 @@
     color: $colorkawaii;
     font-weight: bolder;
 }
+
+@mixin about{
+    background-image: url(https://i.pinimg.com/originals/83/37/ab/8337ab9db6635b587f9640309184468e.jpg);
+}
