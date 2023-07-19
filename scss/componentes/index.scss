@@ -1,0 +1,29 @@
+*{
+    @include reseteo;
+
+}
+
+body{
+    background-color: $colorback1;
+    font: {
+        family: 'Sofia';
+        size: x-large;
+        weight: bold;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    nav{
+        @extend %row;
+        background-color: $colorback2;
+    }
+
+    ul{
+        @extend %row;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+   
