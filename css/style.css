@@ -95,4 +95,18 @@ input[type=submit]:hover {
   background-color: rgba(160, 69, 136, 0.6470588235);
 }
 
+@media (max-width: 576px) {
+  header {
+    display: none;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

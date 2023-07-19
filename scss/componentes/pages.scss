@@ -44,3 +44,18 @@ aside{
   input[type="submit"]:hover {
     background-color: #a04588a5;
   }
+
+  @media (max-width: 576px){
+    header{
+        display: none;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    }
