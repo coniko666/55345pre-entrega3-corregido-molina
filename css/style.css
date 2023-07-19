@@ -1,6 +1,11 @@
-article, body ul, body nav {
+.contenido, article, body ul, body nav {
   display: grid;
   grid-template-rows: auto;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
@@ -39,6 +44,14 @@ article {
   background-image: url(https://i.pinimg.com/originals/d1/58/c5/d158c504c9594ce9733a60a8a3ab1d13.jpg);
   color: rgb(255, 255, 255);
   font-weight: bolder;
+}
+
+footer h5 {
+  text-align: center;
+}
+
+.contenido {
+  grid-template-columns: 6fr 2fr;
 }
 
 /*# sourceMappingURL=style.css.map */

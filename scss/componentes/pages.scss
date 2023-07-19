@@ -1,0 +1,4 @@
+.contenido{
+    @extend %row;
+    grid-template-columns: 6fr 2fr;
+}

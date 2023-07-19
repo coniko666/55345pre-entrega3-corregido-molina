@@ -38,3 +38,12 @@ article{
     grid-template-columns: 2fr 2fr;
     @include kawaii;
 }
+
+footer{
+    ul{
+        @extend %rowmedia;
+    }
+    h5{
+        text-align: center;
+    }
+}
