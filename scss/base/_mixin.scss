@@ -4,3 +4,9 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+@mixin kawaii{
+    background-image: url(https://i.pinimg.com/originals/d1/58/c5/d158c504c9594ce9733a60a8a3ab1d13.jpg);
+    color: $colorkawaii;
+    font-weight: bolder;
+}

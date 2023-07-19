@@ -26,4 +26,15 @@ body{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
-   
+
+main{
+    @include kawaii;
+    text-align: center;
+}
+
+
+article{
+    @extend %row;
+    grid-template-columns: 2fr 2fr;
+    @include kawaii;
+}

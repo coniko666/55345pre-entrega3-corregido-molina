@@ -1,4 +1,4 @@
-body ul, body nav {
+article, body ul, body nav {
   display: grid;
   grid-template-rows: auto;
 }
@@ -11,7 +11,7 @@ body ul, body nav {
 }
 
 body {
-  background-color: #ffbe98;
+  background-color: #98a1ff;
   font-family: "Sofia";
   font-size: x-large;
   font-weight: bold;
@@ -21,10 +21,24 @@ body header {
   justify-content: space-between;
 }
 body nav {
-  background-color: #ca5061;
+  background-color: #7c99f9;
 }
 body ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main {
+  background-image: url(https://i.pinimg.com/originals/d1/58/c5/d158c504c9594ce9733a60a8a3ab1d13.jpg);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  text-align: center;
+}
+
+article {
+  grid-template-columns: 2fr 2fr;
+  background-image: url(https://i.pinimg.com/originals/d1/58/c5/d158c504c9594ce9733a60a8a3ab1d13.jpg);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */
