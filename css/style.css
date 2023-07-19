@@ -46,6 +46,9 @@ article {
   font-weight: bolder;
 }
 
+footer h3 {
+  text-align: center;
+}
 footer h5 {
   text-align: center;
 }
@@ -57,6 +60,39 @@ footer h5 {
 
 aside p {
   background-image: url(https://i.pinimg.com/originals/83/37/ab/8337ab9db6635b587f9640309184468e.jpg);
+}
+
+.my-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #af4c86;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(160, 69, 136, 0.6470588235);
 }
 
 /*# sourceMappingURL=style.css.map */
